@@ -1,0 +1,21 @@
+# Build artifacts
+*.zip
+
+# Source images (not needed in repo after processing)
+Gemini_Generated_Image*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.log
+

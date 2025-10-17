@@ -68,12 +68,28 @@ This extension:
 - Does NOT send any information to external servers
 - Only runs on Takealot.com pages
 
+## Publishing
+
+Want to publish this extension to the Chrome Web Store or Firefox Add-ons? See [PUBLISHING.md](PUBLISHING.md) for detailed instructions.
+
+**Quick start:**
+```bash
+# Package for Chrome
+python3 package-chrome.py
+
+# Package for Firefox
+python3 package-firefox.py
+```
+
 ## Files
 
 - `manifest.json` - Extension configuration
 - `content.js` - Main script that detects and hides sponsored products
 - `styles.css` - Styling rules for hiding elements
 - `icons/` - Extension icons
+- `package-chrome.py` - Script to create Chrome Web Store package
+- `package-firefox.py` - Script to create Firefox Add-ons package
+- `PUBLISHING.md` - Complete publishing guide
 - `README.md` - This file
 
 ## Version History
